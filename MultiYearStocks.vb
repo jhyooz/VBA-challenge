@@ -1,20 +1,3 @@
-' FOR CONDITIONAL FORMATTING - From Stack Overflow (https://stackoverflow.com/questions/27611260/what-are-the-rgb-codes-for-the-conditional-formatting-styles-in-excel)
-'                    For 'Bad' red:
-'                    Font Is: (156,0,6)
-'                    Background Is: (255,199,206)
-'
-'                    For 'Good' green:
-'                    Font Is: (0,97,0)
-'                    Background Is: (198,239,206)
-'
-'                    For 'Neutral' yellow:
-'                    Font Is: (156,101,0)
-'                    Background Is: (255,235,156)
-'
-' I mostly used the credit card exercise we worked on in class, along with going over the lecture multiple times to get this figured out.
-' However I also used Microsoft VBA documentation for info on how to format and other information (eg: FormatPercent, autofit, variable types - LongLong)
-' I also used ExcelEasy (https://www.excel-easy.com/vba.html) for more information, examples and how to deal with VBA errors
-
 Sub MultiYearStocks():
 ' LOOP THRU WORKSHEETS
     For Each ws In Worksheets
