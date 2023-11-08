@@ -18,10 +18,11 @@ Create a script that loops through all the stocks for one year and outputs the f
 > Make sure to use conditional formatting that will highlight positive change in green and negative change in red.
 
 ### Other Considerations
-* Use the sheet alphabetical_testing.xlsx while developing your code. This dataset is smaller and will allow you to test faster. Your code should run on this file in under 3 to 5 minutes. 
+* Use the sheet `alphabetical_testing.xlsx` while developing your code. This dataset is smaller and will allow you to test faster. Your code should run on this file in under 3 to 5 minutes. 
 * Make sure that the script acts the same on every sheet. The joy of VBA is that it takes the tediousness out of repetitive tasks with the click of a button.
 
 ## Submission Notes
+The vba script is in the `MultiYearStocks.bas` file however if that doesn't work for you, you can also see a copy of it in the `MultiYearStocks.txt` file.
 1. The conditional formatting colors were taken from [Stack Overflow](https://stackoverflow.com/questions/27611260/what-are-the-rgb-codes-for-the-conditional-formatting-styles-in-excel)
 2. I mostly used the credit card exercise we worked on in class, along with going over the lecture multiple times to get this figured out.
 3. However I also used [Microsoft VBA documentation](https://learn.microsoft.com/en-us/office/vba/api/overview/) for info on how to format and other information (eg: FormatPercent, autofit, variable types - LongLong)
