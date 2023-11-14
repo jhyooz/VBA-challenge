@@ -27,3 +27,6 @@ The vba script is in the `MultiYearStocks.bas` file however if that doesn't work
 2. I mostly used the credit card exercise we worked on in class, along with going over the lecture multiple times to get this figured out.
 3. However I also used [Microsoft VBA documentation](https://learn.microsoft.com/en-us/office/vba/api/overview/) for info on how to format and other information (eg: FormatPercent, autofit, variable types - LongLong)
 4. I also used [ExcelEasy](https://www.excel-easy.com/vba.html) for more information, examples and how to deal with VBA errors
+
+## Submission 2 Notes 
+Added conditional formatting for the Percent Change column (K).
